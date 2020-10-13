@@ -26,7 +26,7 @@ function draw() {
     car.velocityX =speed;
 }
 console.log("diff :" + (wall.x-car.x));
-console.log("width : "+ car.width/2 +wall.width/459);
+console.log("width : "+ car.width/2 +wall.width/455);
 if(wall.x - car.x < (wall.width + car.width)/2){
   deformation = (0.5*weight*speed*speed)/22500;
   if(deformation<100){
