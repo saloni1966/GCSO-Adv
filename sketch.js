@@ -8,7 +8,7 @@ carimg = loadImage("redcar.png");
 
 
 function setup() {
-  createCanvas(800,400);
+  createCanvas(1000,400);
   wall = createSprite(750, 200, 20, 200);
   wall.shapeColor = "black";
   car = createSprite(50,200,30,10);
