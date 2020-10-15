@@ -34,10 +34,7 @@ if(wall.x - car.x < wall.width/2 + car.width/100){
     rating = "A-";
     car.velocityX =0;
   }
-//can you check now  ?
-//not working,same issue
 
-//sending you screen shot
   else if(deformation>=100 && deformation<180){
     wall.shapeColor = "yellow";
     rating = "B+"
