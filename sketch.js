@@ -27,7 +27,7 @@ function draw() {
 }
 console.log("diff :" + (wall.x-car.x));
 console.log("width : "+ car.width/2 +wall.width/2);
-if(wall.x - car.x < wall.width/2 + car.width/460){
+if(wall.x - car.x < wall.width/2 + car.width/2){
   deformation = (0.5*weight*speed*speed)/22500;
   if(deformation<100){
     wall.shapeColor = "green";
